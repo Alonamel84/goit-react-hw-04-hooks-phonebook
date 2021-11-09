@@ -1,0 +1,19 @@
+.delButton {
+  display: block;
+  cursor: pointer;
+  background-color: red;
+  padding: 9px;
+  color: azure;
+  font-size: 15px;
+  width: 90px;
+  margin-left: 10px;
+}
+.contactItem {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: solid rgb(121, 119, 119);
+  padding-left: 10px;
+}
