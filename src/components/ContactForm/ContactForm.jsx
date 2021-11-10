@@ -20,7 +20,9 @@ const ContactForm = ({ contact, onSubmit })=> {
      e.target.name === 'name'?  setName(e.target.value) :  setNumber(e.target.value)
      if (contact.some(item => item.name.toLowerCase() === name.toLowerCase()))
             return alert(`${name} is already in contacts`);
-        onSubmit({name, number})
+    onSubmit({ name, number })
+    setNumber('')
+    setName('')
     };
     
         return(
